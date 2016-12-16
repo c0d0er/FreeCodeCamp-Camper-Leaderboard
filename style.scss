@@ -1,0 +1,89 @@
+@mixin padding {padding: 10px 0 10px 0;}
+$w40: 40px;
+body{
+	background-color: #00aba9;
+    color: #f5f5f5;
+}
+header {
+		background-color: #006400;
+		margin-bottom: 50px;
+		padding: 7px 15px 7px 15px;
+		height: 50px;
+		.fcc {
+		width: 250px;
+		}
+		input {
+			color: black;
+			float: right;
+		}
+	}
+
+footer {
+		background-color: #006400;
+		margin-top: 31px;
+		padding: 6px 15px 6px 15px;
+		height: 50px;
+		p {
+			text-align: center;
+			font-size: 30px;
+			margin: 0;
+			color: white;
+			.bill {
+				color: white;
+			}
+		}
+}
+
+.tarea {
+	font-family: arial, sans-serif;
+
+	h3 {
+	text-align: center;
+	background-color: #006400;
+	margin: 0;
+	color: white;
+	@include padding;
+	}
+
+	table:nth-child(even){
+		background-color: #FFFFFF;
+	}
+	table:nth-child(odd){
+		background-color: #f9f9f9;
+	}
+		thead {
+			padding: 20px 0 20px 0;
+			font-size: 16px;
+			.alltime{
+			cursor: pointer;
+			color: green;
+			text-decoration: underline;
+			}
+			.num, .name{
+				color: black;
+			}
+			.recent {
+			@extend .alltime;
+			}
+		}
+
+		tbody {
+			img {
+			width: $w40;
+			border-radius: 4px;
+			}
+
+			a {
+			padding: 10px;
+			}
+
+			color: black;
+		}
+
+			
+}
+
+
+
+
+

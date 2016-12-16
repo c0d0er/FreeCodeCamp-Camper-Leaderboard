@@ -1,0 +1,58 @@
+body {
+  background-color: #00aba9;
+  color: #f5f5f5; }
+
+header {
+  background-color: #006400;
+  margin-bottom: 50px;
+  padding: 7px 15px 7px 15px;
+  height: 50px; }
+  header .fcc {
+    width: 250px; }
+  header input {
+    color: black;
+    float: right; }
+
+footer {
+  background-color: #006400;
+  margin-top: 31px;
+  padding: 6px 15px 6px 15px;
+  height: 50px; }
+  footer p {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: white; }
+    footer p .bill {
+      color: white; }
+
+.tarea {
+  font-family: arial, sans-serif; }
+  .tarea h3 {
+    text-align: center;
+    background-color: #006400;
+    margin: 0;
+    color: white;
+    padding: 10px 0 10px 0; }
+  .tarea table:nth-child(even) {
+    background-color: #FFFFFF; }
+  .tarea table:nth-child(odd) {
+    background-color: #f9f9f9; }
+  .tarea thead {
+    padding: 20px 0 20px 0;
+    font-size: 16px; }
+    .tarea thead .alltime, .tarea thead .recent {
+      cursor: pointer;
+      color: green;
+      text-decoration: underline; }
+    .tarea thead .num, .tarea thead .name {
+      color: black; }
+  .tarea tbody {
+    color: black; }
+    .tarea tbody img {
+      width: 40px;
+      border-radius: 4px; }
+    .tarea tbody a {
+      padding: 10px; }
+
+/*# sourceMappingURL=cstyle.css.map */
