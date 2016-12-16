@@ -17,7 +17,7 @@ const Camper = React.createClass({
       this.setState({
         apidata: data
       });
-    }.bind(this));//var that = this; replace bind(this);
+    }.bind(this));//var that = this; replace bind(this)
   },
 
   handleClickRecent: function() {
